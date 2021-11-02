@@ -1,7 +1,20 @@
 # UPM Big Data Spark Practical Work
 
-## Exercise Requirements
-Students have to develop a Spark application capable of loading and processing the input data,  and create and validate the prediction model. Each one of these steps are described in detail in the following sections.
+## Description
+This Spark application, programmed to perform the following tasks:
+- Load the input data, previously stored at a known location.
+- Select, process and transform the input variables, to prepare them for training the model.
+- Perform some basic analysis of each input variable.
+- Create a machine learning model that predicts the arrival delay time.
+- Validate the created model and provide some measure of its accuracy
+
+## The Data
+Used data published by the US Department of Transportation. This
+data can be downloaded from the following [URL Link](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/HG7NV7).
+
+## Application Requirements
+- **Java version:** Java 11
+- **Scala version:** 2.13.7
 
 ### Autors
 * Zhan Banzekulivakha
